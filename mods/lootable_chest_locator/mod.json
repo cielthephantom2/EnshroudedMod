@@ -1,0 +1,12 @@
+{
+  "id": "lootable_chest_locator",
+  "name": "Lootable Chest Locator",
+  "version": "0.1.0",
+  "entry": "src/mod.lua",
+  "capabilities": ["patch"],
+  "dependencies": [],
+  "authors": ["GitHub Copilot"],
+  "description": "Makes lootable chests much easier to spot by boosting chest glow, extending interaction-dot visibility, lifting prompt height, and increasing the ambient chest audio range where available.",
+  "license": null,
+  "icon": null
+}

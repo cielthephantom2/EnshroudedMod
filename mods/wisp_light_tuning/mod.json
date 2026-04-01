@@ -1,0 +1,12 @@
+{
+  "id": "wisp_light_tuning",
+  "name": "Wisp Light Tuning",
+  "version": "0.1.0",
+  "entry": "src/mod.lua",
+  "capabilities": ["patch"],
+  "dependencies": [],
+  "authors": ["GitHub Copilot"],
+  "description": "Boosts Potion of Wisp light intensity and attempts to raise its exposed light radius where the VFX exposes that parameter.",
+  "license": null,
+  "icon": null
+}
