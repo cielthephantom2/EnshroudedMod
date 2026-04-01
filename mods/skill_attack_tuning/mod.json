@@ -1,0 +1,12 @@
+{
+  "id": "skill_attack_tuning",
+  "name": "Skill Attack Tuning",
+  "version": "0.1.0",
+  "entry": "src/mod.lua",
+  "capabilities": ["patch"],
+  "dependencies": [],
+  "authors": ["GitHub Copilot"],
+  "description": "Configurable damage and hitbox range scaling for Crash Down, Whirlwind Crescendo, and Evasion Attack.",
+  "license": null,
+  "icon": null
+}

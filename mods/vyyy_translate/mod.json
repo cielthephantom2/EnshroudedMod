@@ -1,0 +1,7 @@
+{
+  "id": "vyyy_translate",
+  "name": "Vyyy Translate",
+  "version": "1.0.0",
+  "entry": "src/mod.lua",
+  "capabilities": ["patch"]
+}

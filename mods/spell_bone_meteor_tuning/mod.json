@@ -1,0 +1,12 @@
+{
+  "id": "spell_bone_meteor_tuning",
+  "name": "Spell Bone Meteor Tuning",
+  "version": "0.1.0",
+  "entry": "src/mod.lua",
+  "capabilities": ["patch"],
+  "dependencies": [],
+  "authors": ["GitHub Copilot"],
+  "description": "Configurable Bone Channel I/II damage, cast range, projectile speed, plus Shroud Meteor damage and target limit.",
+  "license": null,
+  "icon": null
+}
