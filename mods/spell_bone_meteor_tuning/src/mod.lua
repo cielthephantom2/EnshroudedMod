@@ -26,6 +26,18 @@ local SPELL_CONFIG = {
     shroud_meteor = {
         damage = 160,
     },
+    acid_bite = {
+        damage = 90,
+    },
+    eternal_acid_bite = {
+        damage = 160,
+    },
+    shroud_beam_channel = {
+        damage = 74,
+    },
+    shock_wisp = {
+        damage = 144,
+    },
 }
 
 local MOD_NAME = "Spell Bone Meteor Tuning"
@@ -40,6 +52,10 @@ local DEFAULT_DISPLAYED_DAMAGE = {
     bone_channel_i = 17,
     bone_channel_ii = 36,
     shroud_meteor = 128,
+    acid_bite = 70,
+    eternal_acid_bite = 130,
+    shroud_beam_channel = 54,
+    shock_wisp = 114,
 }
 
 local TARGET_ITEMS = {
@@ -93,6 +109,29 @@ local TARGET_ITEMS = {
         label = "Shroud Meteor",
         default_damage = DEFAULT_DISPLAYED_DAMAGE.shroud_meteor,
         config = SPELL_CONFIG.shroud_meteor,
+    },
+    ["3afcdfb3-3e5d-45b8-ab66-f914926ed6f8"] = {
+        label = "Acid Bite",
+        default_damage = DEFAULT_DISPLAYED_DAMAGE.acid_bite,
+        base_dmg_mod = 0.9,
+        config = SPELL_CONFIG.acid_bite,
+    },
+    ["c34f0da4-84e6-46b7-ba61-84cb2d11d97c"] = {
+        label = "Eternal Acid Bite",
+        default_damage = DEFAULT_DISPLAYED_DAMAGE.eternal_acid_bite,
+        base_dmg_mod = 0.9,
+        config = SPELL_CONFIG.eternal_acid_bite,
+    },
+    ["069e4bf5-a171-4b91-9c64-c705dfb0c4e1"] = {
+        label = "Shroud Beam Channel",
+        default_damage = DEFAULT_DISPLAYED_DAMAGE.shroud_beam_channel,
+        config = SPELL_CONFIG.shroud_beam_channel,
+    },
+    ["b1bcf072-69f2-4fae-ad8e-f4c0c07463e6"] = {
+        label = "Shock Wisp",
+        default_damage = DEFAULT_DISPLAYED_DAMAGE.shock_wisp,
+        base_dmg_mod = 1.2,
+        config = SPELL_CONFIG.shock_wisp,
     },
 }
 

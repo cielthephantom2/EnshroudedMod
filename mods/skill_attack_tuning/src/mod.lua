@@ -3,16 +3,16 @@
 -- `range_scale` multiplies the combat hitbox size used by the skill.
 local SKILL_CONFIG = {
     crash_down = {
-        damage_scale = 1.5,
-        range_scale = 1.0,
+        damage_scale = 1.2,
+        range_scale = 1.5,
     },
     whirlwind_crescendo = {
-        damage_scale = 1.5,
-        range_scale = 1.0,
+        damage_scale = 1.2,
+        range_scale = 1.5,
     },
     evasion_attack = {
-        damage_scale = 1.5,
-        range_scale = 1.0,
+        damage_scale = 1.2,
+        range_scale = 1.5,
     },
 }
 
