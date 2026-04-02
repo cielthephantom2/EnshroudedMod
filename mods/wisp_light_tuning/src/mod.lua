@@ -3,8 +3,8 @@ local MOD_NAME = "Wisp Light Tuning"
 local CONFIG = {
     consume_light_intensity = 24.0,
     consume_light_radius = 18.0,
-    buff_light_intensity = 30,
-    buff_light_radius = 60.0,
+    buff_light_intensity = 300,
+    buff_light_radius = 100.0,
 }
 
 local TARGETS = {
